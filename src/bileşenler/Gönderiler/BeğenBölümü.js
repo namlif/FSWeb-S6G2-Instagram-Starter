@@ -23,7 +23,7 @@ const BeğenBölümü = props => {
           <FontAwesomeIcon icon={faComment} />
         </div>
       </div>
-      <p className='like-number'>100 likes</p>
+      <p className='like-number'>{begeniSayisi} likes</p>
     </div>
   );
 };
